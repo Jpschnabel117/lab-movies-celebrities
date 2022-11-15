@@ -38,3 +38,7 @@ app.use("/", moviesRoute);
 require("./error-handling")(app);
 
 module.exports = app;
+
+// app.listen(3000, () => {
+//   console.log("RUNNING");
+// });
